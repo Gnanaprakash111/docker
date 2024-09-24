@@ -1,0 +1,8 @@
+# To Install All dependencies for Node.js App
+
+COPY package*.json ./
+
+RUN npm install 
+
+# To copy all application packages 
+COPY . .
